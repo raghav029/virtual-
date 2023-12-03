@@ -74,7 +74,7 @@ const Contact = () => {
         className='flex-[0.75] p-8 rounded-2xl'
       >
         
-        <h3 className="text-8xl text-justify mt-40"> 100 ACTIONS FOR PEACE</h3>
+        <h3 className="text-6xl text-justify mt-40 "> 100 ACTIONS FOR PEACE</h3>
         <h3 className="text-3xl  text-justify mt-10"> An Action for Peace is an action, activity, or project that works towards the promotions of peace and is carried out by volunteers. An Action for Peace is open to the public, inviting people to join. It can last between 1 hour and 2 weeks.
 .</h3>
         {/* <img
@@ -88,7 +88,7 @@ const Contact = () => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className='xl:flex-1 xl:h-auto md:h-[950px] h-[350px]'
+        className='xl:flex-1 xl:h-auto md:h-[950px] h-[550px]'
       >
         <EarthCanvas />
       </motion.div>
